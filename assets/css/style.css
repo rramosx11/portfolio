@@ -1,21 +1,33 @@
+:root {
+    --primary: navy;
+    --secondary: skyblue;
+}
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-header {
+body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: grey ; 
-    color: grey;
+    color: var(--primary);
+    background-color: #fff;
+
+}
+
+
+header {
+    background-color: var(--primary);
+    color: var(--primary);
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
 #title {
-    color: grey;
-    background-color: skyblue;
+    color: var(--primary);
+    background-color: var(--secondary);
     padding-left: 30px;
     padding-right: 10px;
     margin-top: 10px;
@@ -30,24 +42,24 @@ header h1 {
 
 header nav {
     margin: 7px 0;
-  }
-  
+}
+
 header nav ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     list-style: none;
-  }
+}
 
-  
+
 header a {
     text-decoration: none;
-    color: skyblue; 
-  }
+    color: var(--secondary);
+}
 
 .nav {
-    border-bottom: 3px solid skyblue;
+    border-bottom: 3px solid var(--secondary);
     padding: 0 7px 3px
 }
 
@@ -57,55 +69,111 @@ header nav ul li a {
     padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
-    text-shadow: 0 0 10px rgba(0,0,0,0.5);
-  }
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
 
 header nav ul li a:hover {
-    background: skyblue;
-    color: grey;
+    background: var(--secondary);
+    color: var(--primary);
     border-radius: 15px;
     text-shadow: none;
-  }
-
-section {
-    padding: 60px;
 }
+
+
+
 
 .hero {
     width: 100%;
-    height: 20vh;
+    height: 25vh;
     background-image: url('../images/9f80b1d5-2f31-436b-84d6-d20ac4e5f270.png');
     background-size: cover;
-    background-attachment: fixed;
-    background-position: 80%; 
-    flex-direction: row;
-
-  }
-
-#herotxt {
+    background-attachment: center;
     display: flex;
-    justify-content: flex-end;
-    align-self: flex-end;
-    flex-direction: column;
-    padding-right: 20px;
+    align-items: center;
+    justify-content: space-around;
+
 }
 
-#aboutme {
-    margin-left: 20px;
-    padding-left: 35px;
-    padding-right: 10px;
-    clear: both;
-    float: left;
-    background-color: #fff;
-    inline-size: 150px;
-    overflow-wrap: break-word;
+.hero img {
+    height: 400px;
 }
 
-.content .about-me p{
-    padding-left: 50px;
+.subtitle {
+    font-size: 35px;
+    color: var(--primary);
+    background-color: var(--secondary);
+
+}
+
+
+/* utility class styling end */
+
+/* about me section styling start */
+.about-me {
     display: flex;
     justify-content: space-between;
-    border-left: 3px solid navy;
-    
+    align-items: stretch;
+    padding-top: 30px;
+}
 
+.about-me p {
+    font-size: 20px;
+    padding: 0 30px;
+    line-height: 1.6;
+    width: 90%;
+}
+
+.title {
+    border-right: 5px solid var(--primary);
+    min-height: 100%;
+    padding-left: 120px;
+}
+
+.title h2 {
+    font-size: 48px;
+}
+
+.work {
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.work h2 {
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 40px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.projects-grid-wrapper {
+    width: 70%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+}
+
+.projects-grid {
+    width: 60%;
+    display: grid;
+    grid-template-columns: repeat(2, 1 fr);
+    grid-template-rows: repeat(4,1 fr);
+    gap: 8px;
+}
+
+.project {
+    border: solid skyblue;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    
+}
+
+
+
+.work-label {
+    background-color: var(--secondary);
+    color: var(--primary);
+    padding: 10px;
 }
