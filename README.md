@@ -26,10 +26,10 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ## What I added to my portfolio
 
-* My portfolio has my name, recent photo, and the navigation will redirect to the section of the portfolio.
-* Added semantic elemnents through the HTML
-* Changed the h3 tags to h2 tags to fix the hierarchy of the headers.
-* Removed the extra class titles and adjusted the CSS to condense the code in html and css.
-* Reordered the css to follow the structure of the webpage.
-* Added alt descriptions to the images
-* Fixed the navigation bar so that when the tab in clicked on the website, the viewer will be redirected to that section of the page. The id was missing for the SEO section.
+- My portfolio has my name, recent photo, and the navigation will redirect to the section of the portfolio.
+- My resume nav link downloads my most recent resume pre bootcamp.
+-
+-
+-
+-
+-

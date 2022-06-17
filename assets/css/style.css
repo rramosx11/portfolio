@@ -16,7 +16,7 @@
 /* body styles*/
 
 body {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Monsterrat';
     color: var(--primary);
     background-color: #fff;
 
@@ -45,7 +45,7 @@ header h1 {
 }
 
 header div {
-    box-shadow: 3px 3px 5px rgba(0,0,0,0.5);
+        box-shadow: 3px 3px 5px rgba(0,0,0,0.5);
 }
 
 header a {
@@ -92,11 +92,10 @@ header nav ul li a:hover {
 
 }
 
-/*.hero img {
+.hero img {
     height: 200px;
     flex: 1;
-   
-}*/
+}
 
 .subtitle {
     font-size: 35px;
@@ -121,16 +120,17 @@ header nav ul li a:hover {
 }
 
 .about-me p {
+    width: 85%;
     font-size: 18px;
     padding: 0 30px;
     line-height: 1.6;
-    width: 90%;
 }
 
 .title {
     border-right: 5px solid var(--primary);
     min-height: 100%;
     padding-left: 120px;
+    width: 300px;
 }
 
 .title h2 {
@@ -211,7 +211,7 @@ header nav ul li a:hover {
 }
 
 footer {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Monsterrat';
     color: var(--primary);
     background-color: #fff;
     padding-top: 30px;
@@ -227,23 +227,23 @@ footer ul {
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-content: center;
+    font-size: 30px;
 }
 
 .contact-wrapper {
-    display: flex; 
-    justify-content: center;
-}
+    width: 80%;
 
-.contact-list {
     
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
 }
 
-footer ul li a{
+footer ul li {
     text-decoration: none;
-}
+    padding: 8px;
+    border-bottom: 3px solid navy ;
+}   
+
+
+
 
 
 
@@ -284,7 +284,24 @@ footer ul li a{
         display: flex;
         justify-content: center;
         align-items: flex-end;
+        flex-wrap: wrap;
     }
+
+    article {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .projects-grid {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-list {
+        display: flex;
+        flex-direction: column;
+    }
+
 
   
   /*Media Query for tablets and smaller */
