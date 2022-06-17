@@ -1,3 +1,7 @@
+## Description
+
+In this challenge I was tasked with created my portfolio from scratch. I created the structure of the webpage in the html while formatting with CSS.
+
 ## User Story
 
 ```
@@ -24,12 +28,19 @@ WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 ```
 
-## What I added to my portfolio
+## Portfolio Features
 
 - My portfolio has my name, recent photo, and the navigation will redirect to the section of the portfolio.
 - My resume nav link downloads my most recent resume pre bootcamp.
--
--
--
--
--
+- I have included my contact information with my phone number, email, github, and my Linkedin.
+- I have a container the projects that I have completed. I currently have two placeholder images and links to update as I complete more projects.
+- My first application is the largest in size. When clicked you are redirected to the deployed URL.
+- I have multiple hover effects on my navigation bar, contact information, and on my work. My work also has opacity effects that focus up when I hover over them.
+- My webpage is responsive.
+- My code has semantic and formatted neatly.
+
+## Deployed URL and Screenshot of Portfolio
+
+https://rramosx11.github.io/portfolio/
+
+![Screenshot](https://github.com/rramosx11/horiseon-social-solution-services/blob/main/assets/images/horiseon%20screenshot.jpg)

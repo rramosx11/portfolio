@@ -233,6 +233,11 @@ footer ul li {
   border-bottom: 3px solid navy;
 }
 
+footer ul li a {
+  text-decoration: none;
+  color: navy;
+}
+
 /*Media Query for smaller desktop screens and smaller*/
 @media screen and (max-width: 980px) {
   header {
@@ -270,6 +275,12 @@ footer ul li {
     flex-wrap: wrap;
   }
 
+  .title {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
   article {
     display: flex;
     flex-direction: column;
@@ -289,6 +300,10 @@ footer ul li {
   @media screen and (max-width: 768px) {
     section {
       padding: 30px 15px;
+    }
+    .title {
+      flex: 1 100%;
+      flex-wrap: wrap;
     }
 
     /*Media Query for mobile phones and smaller */
