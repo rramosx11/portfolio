@@ -208,6 +208,8 @@ header nav ul li a:hover {
   padding: 10px;
 }
 
+/* footer/contact information section */
+
 footer {
   font-family: "Monsterrat";
   color: var(--primary);
@@ -289,6 +291,7 @@ footer ul li :hover {
   }
 
   .title {
+    font-size: 24px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;

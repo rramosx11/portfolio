@@ -37,7 +37,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 - My first application is the largest in size. When clicked you are redirected to the deployed URL.
 - I have multiple hover effects on my navigation bar, contact information, and on my work. My work also has opacity effects that focus up when I hover over them.
 - My webpage is responsive.
-- My code has semantic and formatted neatly.
+- My code has semantic tags and formatted neatly.
 
 ## Deployed URL and Screenshot of Portfolio
 
