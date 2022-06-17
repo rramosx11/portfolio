@@ -75,6 +75,9 @@ header nav ul li a:hover {
   border-bottom: 3px solid var(--secondary);
   padding: 0 7px 3px;
 }
+/* end of header styles*/
+
+/* start of hero styles*/
 
 .hero {
   width: 100%;
@@ -102,7 +105,7 @@ header nav ul li a:hover {
   align-items: center;
 }
 
-/* utility class styling end */
+/* end of Hero styling end */
 
 /* about me section styling start */
 .about-me {
@@ -129,6 +132,8 @@ header nav ul li a:hover {
 .title h2 {
   font-size: 48px;
 }
+
+/* My work section styles */
 
 .work {
   padding: 30px 0;
@@ -228,6 +233,7 @@ footer ul {
 }
 
 footer ul li {
+  font-size: 24px;
   text-decoration: none;
   padding: 8px;
   border-bottom: 3px solid navy;
@@ -236,6 +242,13 @@ footer ul li {
 footer ul li a {
   text-decoration: none;
   color: navy;
+}
+
+footer ul li :hover {
+  background: var(--secondary);
+  color: var(--primary);
+  border-radius: 15px;
+  text-shadow: none;
 }
 
 /*Media Query for smaller desktop screens and smaller*/

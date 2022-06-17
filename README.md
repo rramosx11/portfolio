@@ -43,4 +43,4 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 https://rramosx11.github.io/portfolio/
 
-![Screenshot](https://github.com/rramosx11/horiseon-social-solution-services/blob/main/assets/images/horiseon%20screenshot.jpg)
+![Screenshot](https://github.com/rramosx11/portfolio/blob/main/assets/images/portfolio%20screenshot.png)
