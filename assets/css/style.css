@@ -179,27 +179,26 @@ header nav ul li a:hover {
   opacity: 1;
 }
 
-.run-buddy {
+.wheres-the-band {
   grid-column: 1/3;
   grid-row: span 2;
-  background-image: url("../images/run-buddy\ screenshot.png");
+  background-image: url("../images/Event\ Finder.png");
 }
 
-.horiseon {
-  background-image: url(../images/horiseon.png);
+.code-quiz {
+  background-image: url(../images/code-quiz\ home.png);
 }
 
 .robot-gladiators {
   background-image: url(../images/robots.jpeg);
 }
 
-.fourth-project {
-  background-image: url(../images/placeholder\ image.png);
+.run-buddy {
+  background-image: url("../images/run-buddy\ screenshot.png");
 }
 
-.fifth-project {
-  background-image: url(../images/placeholder\ image.png);
-  background-position: 50% 50%;
+.Weather-Dashboard {
+  background-image: url(../images/Weather\ Dashboard\ 2.png);
 }
 
 .work-label {
@@ -288,6 +287,9 @@ footer ul li :hover {
     justify-content: center;
     align-items: flex-end;
     flex-wrap: wrap;
+  }
+  .about-me p {
+    font-size: 18px;
   }
 
   .title {
