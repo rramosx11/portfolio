@@ -179,17 +179,17 @@ header nav ul li a:hover {
   opacity: 1;
 }
 
-.wheres-the-band {
+.pawfect-friends-app {
   grid-column: 1/3;
   grid-row: span 2;
-  background-image: url("../images/Event\ Finder.png");
+  background-image: url("../images/pawfect-friends.png");
 }
 
-.code-quiz {
+.wheres-the-band {
   background-image: url(../images/code-quiz\ home.png);
 }
 
-.robot-gladiators {
+.code-quiz {
   background-image: url(../images/robots.jpeg);
 }
 
