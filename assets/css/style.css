@@ -186,11 +186,11 @@ header nav ul li a:hover {
 }
 
 .wheres-the-band {
-  background-image: url(../images/code-quiz\ home.png);
+  background-image: url(../images/Event\ Finder.png);
 }
 
 .code-quiz {
-  background-image: url(../images/robots.jpeg);
+  background-image: url(../images/code-quiz\ home.png);
 }
 
 .run-buddy {
@@ -206,9 +206,8 @@ header nav ul li a:hover {
   color: var(--primary);
   padding: 10px;
 }
-
-/* footer/contact information section */
-
+  color: var(--primary);
+  padding: 10px
 footer {
   font-family: "Monsterrat";
   color: var(--primary);
@@ -219,7 +218,6 @@ footer {
   justify-content: space-between;
   flex-wrap: wrap;
 }
-
 footer ul {
   list-style: none;
   display: flex;
@@ -228,7 +226,6 @@ footer ul {
   align-content: center;
   font-size: 30px;
 }
-
 .contact-wrapper {
   width: 80%;
 }
@@ -239,38 +236,36 @@ footer ul li {
   padding: 8px;
   border-bottom: 3px solid navy;
 }
-
 footer ul li a {
   text-decoration: none;
   color: navy;
 }
-
 footer ul li :hover {
   background: var(--secondary);
   color: var(--primary);
   border-radius: 15px;
   text-shadow: none;
 }
+  border-radius: 15px;
+  text-shadow: none;
+}
 
-/*Media Query for smaller desktop screens and smaller*/
+/*Media
 @media screen and (max-width: 980px) {
   header {
     padding-bottom: 0;
     justify-content: center;
     position: relative;
   }
-
   header h1 {
     width: 100%;
     text-align: center;
   }
-
   header nav ul {
     margin-top: 20px;
     width: 100%;
     justify-content: center;
   }
-
   header nav ul li a {
     font-size: 20px;
   }
@@ -280,9 +275,9 @@ footer ul li :hover {
     text-align: center;
     width: 100%;
   }
-
   .subtitle {
     font-size: 20px;
+
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -291,30 +286,26 @@ footer ul li :hover {
   .about-me p {
     font-size: 18px;
   }
-
   .title {
     font-size: 24px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
   }
-
   article {
     display: flex;
     flex-direction: column;
   }
-
   .projects-grid {
     display: flex;
     flex-direction: column;
   }
-
   .contact-list {
     display: flex;
     flex-direction: column;
   }
-
-  /*Media Query for tablets and smaller */
+    display: flex;
+    flex-direction: col
   @media screen and (max-width: 768px) {
     section {
       padding: 30px 15px;
@@ -323,8 +314,11 @@ footer ul li :hover {
       flex: 1 100%;
       flex-wrap: wrap;
     }
+      flex: 1 100%;
+      flex-wrap: wrap;
+    }
 
-    /*Media Query for mobile phones and smaller */
+
     @media screen and (max-width: 575px) {
     }
   }
